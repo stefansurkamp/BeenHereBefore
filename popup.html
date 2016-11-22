@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Been Here Before</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 400px;
+      }
+      #details {
+        /* avoid an excessively wide status text */
+        white-space: normal; 
+        overflow: hidden;
+        min-width: 400px;
+      }
+      #debug {
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        min-width: 400px;
+        min-height: 50px;
+        background-color: green;
+        display: none;
+      }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="status"></div>
+    <div id="details"></div>
+    <div id="debug">DEBUG START</div>
+  </body>
+</html>
+

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Been Here Before",
+  "description": "This extension shows if you have already visited the current site before",
+  "version": "0.1",
+  "options_page": "options.html",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Have you been here before?"
+
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+
+}
